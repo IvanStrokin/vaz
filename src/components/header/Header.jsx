@@ -13,8 +13,6 @@ const Header = () => {
             <div className={s.ProductsBlock}>
                 <NavLink to="">Модельный ряд</NavLink>
                 <NavLink to="">Конфигуратор</NavLink>
-            </div>
-            <div className={s.InfoBlock}>
                 <NavLink to="">Владельцам</NavLink>
                 <NavLink to="">Диллеры</NavLink>
                 <NavLink to="">Контакты</NavLink>
