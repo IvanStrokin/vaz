@@ -29,7 +29,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 35%;
+    width: 37%;
 }
 
 .Geoposition {
@@ -49,7 +49,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 30%;
+    width: 25%;
 }
 
 select {
@@ -65,6 +65,4 @@ option {
     border: 0;
     color: #4c5865;
     font-size: 120%;
-
-    &:hover {}
 }

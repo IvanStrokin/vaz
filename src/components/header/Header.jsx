@@ -15,6 +15,7 @@ const Header = () => {
                 <NavLink to="">Конфигуратор</NavLink>
             </div>
             <div className={s.InfoBlock}>
+                <NavLink to="">Владельцам</NavLink>
                 <NavLink to="">Диллеры</NavLink>
                 <NavLink to="">Контакты</NavLink>
             </div>
@@ -23,7 +24,7 @@ const Header = () => {
                 <select name="choice">
                     <option value="first" selected>Тольятти</option>
                     <option value="second">Москва</option>
-                    <option value="third">Санкт-Питербург</option>
+                    <option value="third">Санкт-Петербург</option>
 
                 </select>
             </div>
