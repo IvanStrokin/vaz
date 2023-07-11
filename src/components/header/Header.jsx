@@ -11,11 +11,11 @@ const Header = () => {
                 </NavLink>
             </h1>
             <div className={s.ProductsBlock}>
-                <NavLink to="">Модельный ряд</NavLink>
-                <NavLink to="">Конфигуратор</NavLink>
-                <NavLink to="">Владельцам</NavLink>
-                <NavLink to="">Диллеры</NavLink>
-                <NavLink to="">Контакты</NavLink>
+                <NavLink to="/models">Модельный ряд</NavLink>
+                <NavLink to="/configuration">Конфигуратор</NavLink>
+                <NavLink to="/userSupport">Владельцам</NavLink>
+                <NavLink to="/dilers">Диллеры</NavLink>
+                <NavLink to="/contacts">Контакты</NavLink>
             </div>
             <div className={s.Geoposition}>
                 <img src="https://static.tildacdn.com/tild3936-6530-4538-a432-306661633732/hotpngcom.png" />

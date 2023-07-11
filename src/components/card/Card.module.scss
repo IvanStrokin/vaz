@@ -1,0 +1,41 @@
+.wrapper{
+    padding: 17px;
+    width: 350px;
+    color: #4c5865;
+    text-align: center;
+    margin: 0;
+
+    &:hover{
+
+        img{
+            background-image: url(https://phonoteka.org/uploads/posts/2022-09/1663812054_41-phonoteka-org-p-gorod-doroga-fon-vkontakte-51.jpg);
+            background-size: 150% ;
+            background-position: center;
+        }
+    }
+
+    img {
+        width: 100%;
+       
+    }
+    h1{
+        font-size: 150%;
+    }
+}
+
+.price{
+    display: flex;
+    font-display: row;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    gap: 5px;
+}
+
+.inf0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
