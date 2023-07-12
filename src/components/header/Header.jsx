@@ -23,7 +23,6 @@ const Header = () => {
                     <option value="first" selected>Тольятти</option>
                     <option value="second">Москва</option>
                     <option value="third">Санкт-Петербург</option>
-
                 </select>
             </div>
         </div>
